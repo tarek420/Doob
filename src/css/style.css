@@ -1,0 +1,243 @@
+body {
+  font-family: 'Work Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #464E90; }
+
+.box {
+  padding: 1%; }
+
+html {
+  scroll-behavior: smooth; }
+
+/*=========================
+   HEADER SECTION
+==========================*/
+header {
+  height: 720px;
+  background: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  header h1 {
+    font-size: 75px; }
+  header p {
+    font-size: 18px; }
+  header #header-section {
+    padding: 50px 0; }
+  header .rounded {
+    border-radius: 20px !important;
+    background: #FF4359; }
+  header .get-in-touch {
+    margin: 10px 20px;
+    color: #323232; }
+  header .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: #ea0e0ec4;
+    z-index: 999;
+    padding: 0;
+    margin-top: -1.2rem;
+    transition: all 1s; }
+    header .sticky .nav-item .nav-link {
+      color: white; }
+  header .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; }
+  header .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+  header .sidenav a:hover {
+    color: #f1f1f1; }
+  header .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+/*=========================
+   HEADER BOTTOM SECTION
+==========================*/
+#header-bottom {
+  padding: 50px 0; }
+  #header-bottom .card {
+    background: transparent;
+    border: 0;
+    padding: 0 40px; }
+  #header-bottom .card-body:hover {
+    background: #f000;
+    box-shadow: 2px 2px 5px 0px #1e1b1bc4;
+    transform: scale(1.1); }
+  #header-bottom .card-body {
+    box-shadow: 2px 2px 5px 0px #1e1b1b78;
+    transition: all 1s; }
+  #header-bottom .img-fluid {
+    max-width: 57px;
+    height: 56px; }
+  #header-bottom h4 {
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 27.44px; }
+  #header-bottom h3 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #464E90; }
+  #header-bottom .rounded {
+    border-radius: 20px !important;
+    background: #FF4359;
+    margin-top: 20px; }
+
+/*=========================
+   START ABOUT SECTION
+==========================*/
+#about {
+  padding: 50px 0; }
+  #about img {
+    width: 500px;
+    height: 320px;
+    margin: auto; }
+  #about h2 {
+    font-size: 48.43px;
+    font-weight: 600; }
+  #about h5 {
+    font-size: 18px;
+    color: #FF4359;
+    font-weight: 600; }
+  #about p {
+    font-size: 18px; }
+
+/*=========================
+   START PORTFOLIO SECTION
+==========================*/
+#portfolio {
+  padding: 50px 0; }
+  #portfolio h3 {
+    font-size: 48.43px;
+    color: #464E90;
+    font-weight: 600; }
+  #portfolio img {
+    width: 350px;
+    height: 280px;
+    transition: all 1s; }
+  #portfolio img:hover {
+    box-shadow: 2px 4px 5px 0 #3333339e; }
+  #portfolio h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px; }
+
+/*=========================
+   START BLOG SECTION
+==========================*/
+#blog {
+  padding: 50px 0; }
+  #blog h4 {
+    font-size: 18px;
+    color: #FF4359;
+    font-weight: 600; }
+  #blog h1 {
+    font-size: 48.43px;
+    font-weight: 600;
+    color: #314584; }
+  #blog h5 {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  #blog .card {
+    padding: 20px;
+    transition: all 1s; }
+  #blog .card a {
+    float: right; }
+  #blog .card:hover {
+    background: #FF3946;
+    color: #fff; }
+    #blog .card:hover h4, #blog .card:hover h5 {
+      color: #fff; }
+
+/*=========================
+   START BLOG SECTION
+==========================*/
+#contact {
+  padding: 50px 0; }
+  #contact h2 {
+    font-size: 48.43px;
+    font-weight: 600;
+    color: #314584; }
+  #contact h4 {
+    font-size: 18px;
+    color: #FFA2B1;
+    font-weight: 600; }
+  #contact input {
+    border-radius: 0;
+    background: #F5F0FE;
+    padding: 30px;
+    margin-top: 40px; }
+  #contact textarea {
+    border-radius: 0;
+    background: #F5F0FE;
+    padding: 30px; }
+  #contact ::placeholder {
+    color: #314584;
+    opacity: 1; }
+  #contact .btn-contact {
+    background: #FF4359;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px; }
+
+/*=========================
+   START FOOTER SECTION
+==========================*/
+footer {
+  text-align: center;
+  padding: 50px 0;
+  background: #464E90; }
+  footer h2 {
+    font-size: 48.43px;
+    font-weight: 600;
+    color: #FF3946; }
+  footer h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff; }
+  footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500; }
+  footer .nav-link {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 20px; }
+  footer .navbar-nav {
+    margin: auto; }
+  footer .social-icon a {
+    color: #fff;
+    margin-left: 50px; }
+    footer .social-icon a .fa {
+      font-size: 40px;
+      transition: all 1s; }
+    footer .social-icon a .fa:hover {
+      transform: rotate(360deg); }
