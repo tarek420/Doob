@@ -138,6 +138,7 @@
 /*=======================*/
 @media(max-width:420px){
    header .sticky {
+      width:100%;
       padding: 0 2rem;
    }
    header {
@@ -154,7 +155,7 @@
 /*=======================*/
 @media(max-width:375px){
    header .sticky {
-      width: 59%;
+      width: 100%;
       padding: 0 1rem;
    }
    header {
@@ -178,7 +179,7 @@
 /*=======================*/
 @media(max-width:360px){
    header .sticky {
-      width: 57%;
+      width: 100%;
       padding: 0 1rem;
    }
    #header-bottom h3 {
